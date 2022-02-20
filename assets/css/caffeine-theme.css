@@ -4716,12 +4716,6 @@ body.page-browser-compatibility .error-body {
 }
 
 @media all and (max-width: 1024px) {
-
-    /*.module-cmt-float-bar{display: none!important;}*/
-
-    code[class*=language-] ul{
-        padding-left: 36px!important;
-    }
     .post {
         margin: 0
     }
@@ -5195,8 +5189,7 @@ code[class*=language-], pre[class*=language-] {
     tab-size: 4;
     -webkit-hyphens: none;
     -ms-hyphens: none;
-    hyphens: none;
-    font-size: 16px;
+    hyphens: none
 }
 
 pre[class*=language-] {
@@ -5214,6 +5207,7 @@ pre[class*=language-] {
     padding: .1em;
     border-radius: .3em
 }
+
 code[class*=language-] ul{
     padding-left: 20px;
     margin: 0!important;
